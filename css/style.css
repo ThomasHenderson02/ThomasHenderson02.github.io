@@ -1,0 +1,135 @@
+body{
+margin: 0;
+background-color: #DAD4B5
+}
+nav{
+    border-bottom: 3px solid;
+    display: flex;
+    padding-right: 3px;
+    justify-content: right;
+    background-color: #952323;
+
+}
+.navlink:link {
+color: #DAD4B5;
+}   
+.navlink:visited{
+    color: #DAD4B5;
+}
+.navlink:hover {
+    color: white;
+}
+footer{
+    border-top: 3px solid;
+    padding-right: 3px;
+    background-color: #952323;
+    display: flex;
+    justify-content: right;
+}
+.footerlink:link{
+    color:#DAD4B5;
+}
+.footerlink:visited{
+    color:#DAD4B5;
+}
+.footerlink:hover{
+    color:white;
+}
+.introduction{
+    margin:0;
+    border:0;
+    padding:0;
+    height: 40%;
+    text-align: center;
+    background-color: lightblue;
+}
+ .introduction h1{
+margin: 0;
+} 
+.Simg{
+    margin: auto;
+    width: 35%;   
+}
+.cloudimg{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+.sunimg{
+    position: absolute;
+    top: 150px;
+    right: 100px;
+}
+.meimg{
+margin: auto;
+display: block;
+border-radius: 100%;
+}
+a:link{
+text-decoration: none;
+}
+
+h1{
+    font-family: 'Monda', sans-serif;
+    font-size: 48px;
+}
+h2{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 32px;
+}
+.aboutme h2{
+    text-align: center;
+}
+.aboutme p{
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif ;
+    font-size: 24px;
+}
+hr{
+    border-top: 5px dotted;
+    margin:0px 15%;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+     padding: 15px; 
+}
+.three-col{
+    display:flex;
+    gap: 100px;
+    font-size: 24px;
+    font-family:'Monda', sans-serif;
+}
+.three-col ul{
+list-style-type: none;
+}
+.card img{
+width: 100%;
+max-width: 600px;
+}
+.contacthead{
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 40px
+}
+.one-col{
+
+background-color: white;
+width: 570px;
+display: flex;
+justify-content: space-evenly;
+margin: auto;
+padding: 10px;
+font-family:'Monda', sans-serif;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.contact{
+    padding: 100px;
+    text-align: center;
+    font-size: 24px;
+
+}
+.contacthr{
+    width:570px;
+    margin: auto;
+}
